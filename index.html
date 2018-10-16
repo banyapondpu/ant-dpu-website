@@ -1,0 +1,388 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>College of Creative Design and Entertainment Technology</title>
+
+    <!-- Page styles -->
+    <link href="https://fonts.googleapis.com/css?family=Athiti:500|Prompt|Ubuntu|Prompt" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/material.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/material.min.js"></script>
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div  id="myHeader" class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="images/logo.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">หน้าหลัก</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#" id="demo-menu-lower-left"> หลักสูตร</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">ข้อมูลวิทยาลัย</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">การเข้าสมัครเรียน</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">ติดต่อวิทยาลัย</a>
+            </nav>
+            <!-- Left aligned menu below button -->
+
+        <ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+        for="demo-menu-lower-left">
+        <li class="mdl-menu__item">หลักสูตรการออกแบบเชิงโต้ตอบและการพัฒนาเกม GT</li>
+        <li class="mdl-menu__item mdl-menu__item--full-bleed-divider">หลักสูตรการออกแบบดิจิทัลเชิงสร้างสรรค์ DA</li>
+        <li disabled class="mdl-menu__item">หลักสูตรวิศวกรรมเว็บและการพัฒนาแอปพลิเคชันบนอุปกรณ์พกพา WE</li>
+        <li class="mdl-menu__item">หลักสูตรระยะสั้น</li>
+        </ul>
+
+          </div>
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/logo.png">
+          </span>
+         
+        </div>
+      </div>
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image-white" alt="College of Creative Design and Entertainment Technology" src="images/android-logo-white.png">
+
+        </span>
+        <nav class="mdl-navigation get-font-side">
+        <span class="mdl-navigation__link" href="">หลักสูตรปริญญาตรี 4 ปี</span>
+          <a class="mdl-navigation__link" href="">
+              <img src="images/logo-GT.png" class="side-img"/><br/>หลักสูตรการออกแบบเชิงโต้ตอบและการพัฒนาเกม (GT)</a>
+          <a class="mdl-navigation__link" href="">
+             <img src="images/logo-DA.png" class="side-img"/><br/>หลักสูตรการออกแบบดิจิทัลเชิงสร้างสรรค์ (DA)</a>
+          </a>
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Social Media Channel</span>
+          <a class="mdl-navigation__link" href="https://fb.me/ANTDPU"><i class="fa fa-facebook social-font"></i>Facebook</a>
+          <a class="mdl-navigation__link" href="#"><i class="fa fa-twitter social-font"></i>Twitter</a>
+          <a class="mdl-navigation__link" href=""><i class="fa fa-instagram social-font"></i>Instagram</a>
+          <a class="mdl-navigation__link" href=""><i class="fa fa-youtube social-font"></i>YouTube</a>
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Network</span>
+          <a class="mdl-navigation__link" href="">มหาวิทยาลัยธุรกิจบัณฑิตย์</a>
+          
+        </nav>
+      </div>
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+        <div class="android-be-together-section mdl-typography--text-center">
+          <div class="logo-font android-slogan">ANT รับสมัครนักศึกษาปี 2562</div>
+          <div class="logo-font android-sub-slogan">การออกแบบเชิงโต้ตอบและการพัฒนาเกม และ การออกแบบดิจิทัลเชิงสร้างสรรค์</div>
+          
+
+          <a href="#screens">
+            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+              <i class="material-icons">expand_more</i>
+            </button>
+          </a>
+        </div>
+        <!--Course-->
+        <div class="android-screen-section mdl-typography--text-center">
+                <div class = "mdl-grid">
+                        <div class = "mdl-cell mdl-cell--4-col graybox">
+                            <!--GT-->
+                            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                    <div class="mdl-card__title">
+                                            <img src="images/logo-GT.png" class="card-img"/>
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                      หลักสูตรการออกแบบเชิงโต้ตอบและการพัฒนาเกม <br/>(วิทยาศาสตรบัณฑืต)
+                                    </div>
+                                    <div class="mdl-card__actions mdl-card--border">
+                                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect card-font-data">
+                                        สมัครเข้าศึกษา <i class="fa fa-angle-right social-font"></i>
+                                      </a>
+                                    </div>
+                                    <div class="mdl-card__menu">
+                                      <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                        <i class="material-icons">share</i>
+                                      </button>
+                                    </div>
+                                  </div>
+                            <!--GT-->
+                        </div>
+                        <div class = "mdl-cell mdl-cell--4-col graybox">
+                            <!--DA-->
+                            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                    <div class="mdl-card__title">
+                                            <img src="images/logo-DA.png" class="card-img"/>
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                      หลักสูตรการออกแบบดิจิทัลเชิงสร้างสรรค์ <br/>(วิทยาศาสตรบัณฑืต)
+                                    </div>
+                                    <div class="mdl-card__actions mdl-card--border">
+                                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect card-font-data">
+                                        สมัครเข้าศึกษา <i class="fa fa-angle-right social-font"></i>
+                                      </a>
+                                    </div>
+                                    <div class="mdl-card__menu">
+                                      <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                        <i class="material-icons">share</i>
+                                      </button>
+                                    </div>
+                                  </div>
+                            <!--DA-->
+                        </div>
+                        <div class = "mdl-cell mdl-cell--4-col graybox">
+                            <!--DPU Core-->
+                            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                    <div class="mdl-card__title">
+                                            <img src="images/dpu-core.png" class="card-img"/>
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                            โมเดลการเรียนรู้ในศตวรรษที่ 21 มหาวิทยาลัยธุรกิจบัณฑิตย์ พัฒนาทักษะแห่งอนาคต 6 ด้าน
+                                    </div>
+                                    <div class="mdl-card__actions mdl-card--border">
+                                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect card-font-data">
+                                        รายละเอียดข้อมูล <i class="fa fa-angle-right social-font"></i>
+                                      </a>
+                                    </div>
+                                    <div class="mdl-card__menu">
+                                      <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+                                        <i class="material-icons">share</i>
+                                      </button>
+                                    </div>
+                                  </div>
+                            <!--DPU Core-->
+                        </div>
+                </div>
+        </div>
+        <!--Course-->
+        
+        <div class="android-customized-section">
+            
+                <div class="mdl-grid">
+                    <div class = "mdl-cell mdl-cell--8-col mdl-cell--4-col-tablet graybox">
+                        <div id="right-side">
+                                <h2 class="latest-text">Latest Events</h2>
+                                <img class="promo-img" src="images/banner_promo.jpg">
+                        </div>  
+                        <div id="right-side">
+                            <!--Portfolio-->
+                            <div class="android-more-section">
+                                    <h2 class="latest-text">Our Students' Project</h2>
+                                    <div class="android-card-container mdl-grid">
+                                      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                                        <div class="mdl-card__media">
+                                          <img src="images/poster-1.png">
+                                        </div>
+                                       
+                                        <div class="mdl-card__supporting-text">
+                                                <div class="sharing-ion">
+                                                        <i class="fa fa-facebook social-font"> </i>
+                                                        <i class="fa fa-twitter social-font"> </i>
+                                                        <i class="fa fa-instagram social-font"> </i>
+                                                        <i class="fa fa-youtube social-font"> </i>
+                                                </div>
+                                          <span class="card-typo">จำลองการเป็นนักธนู ผ่านสื่อเชิงโต้ตอบรูปแบบเกมบนเทคโนโลยี VR ด้วย Unity และ SteamVR</span>
+                                        </div>
+                                        <div class="mdl-card__actions">
+                                           <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                                             รายละเอียด ผลงาน
+                                             <i class="material-icons">chevron_right</i>
+                                           </a>
+                                        </div>
+                                      </div>
+                          
+                                      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                                        <div class="mdl-card__media">
+                                          <img src="images/poster-2.png">
+                                        </div>
+                                        
+                                        <div class="mdl-card__supporting-text">
+                                                <div class="sharing-ion">
+                                                        <i class="fa fa-facebook social-font"> </i>
+                                                        <i class="fa fa-twitter social-font"> </i>
+                                                        <i class="fa fa-instagram social-font"> </i>
+                                                        <i class="fa fa-youtube social-font"> </i>
+                                                </div>
+                                          <span class="card-typo">ตื่นเต้นไปกับการจำลองสถานการณ์ซอมบี้ในบ้านร้าง ผ่านสื่อเชิงโต้ตอบรูปแบบเกมบนเทคโนโลยี VR ด้วย Unity และ SteamVR</span>
+                                        </div>
+                                        <div class="mdl-card__actions">
+                                           <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                                                รายละเอียด ผลงาน
+                                             <i class="material-icons">chevron_right</i>
+                                           </a>
+                                        </div>
+                                      </div>
+                          
+                                      <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                                        <div class="mdl-card__media">
+                                          <img src="images/poster-3.png">
+                                        </div>
+                                                                                <div class="mdl-card__supporting-text">
+                                                                                        <div class="sharing-ion">
+                                                                                                <i class="fa fa-facebook social-font"> </i>
+                                                                                                <i class="fa fa-twitter social-font"> </i>
+                                                                                                <i class="fa fa-instagram social-font"> </i>
+                                                                                                <i class="fa fa-youtube social-font"> </i>
+                                                                                        </div>
+                                          <span class="card-typo">ผลงานนักศึกษาในวิทยาลัยครีเอทีฟดีไซน์ แอนด์ เอ็นเตอร์เทนเมนต์เทตคโนโลยี ร่วมกับกรมศิลปากร และกระทรวงวัฒนธรรม</span>
+                                        </div>
+                                        <div class="mdl-card__actions">
+                                           <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
+                                                รายละเอียด ผลงาน
+                                             <i class="material-icons">chevron_right</i>
+                                           </a>
+                                        </div>
+                                      </div>
+                          
+                                    </div>
+                                  </div>
+                            <!--Portfolio-->
+                        </div>
+                        <div id="right-side">
+                                <h2 class="latest-text">Our Sponsors</h2>
+                                <img class="promo-img" src="images/sponsor.png">
+                        </div>  
+                    </div>
+                    <div class = "mdl-cell mdl-cell--4-col mdl-cell--4-col-phone graybox">
+                        <div id="right-side side-center">
+                                <h2 class="latest-text">Subscribes & Follows</h2>
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FANTDPU&tabs=events&width=300&height=240&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" 
+                                style="border:none;overflow:hidden; padding-bottom: 15px; width:100%; height:250px;" 
+                                scrolling="no" frameborder="0" allowTransparency="true" 
+                                allow="encrypted-media"></iframe>    
+                        </div>    
+                        
+                        <div id="right-side">
+                            <h2 class="latest-text">Latest News</h2>
+                            <!--News-->
+                            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                    <div class="mdl-card__title">
+                                            <img src="images/AMD.png" class="card-img"/>
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        <div class="sharing-ion">
+                                                <i class="fa fa-facebook social-font"> </i>
+                                                <i class="fa fa-twitter social-font"> </i>
+                                                <i class="fa fa-instagram social-font"> </i>
+                                                <i class="fa fa-youtube social-font"> </i>
+                                        </div>    
+                                      บริษัท AMD เข้ามาเป็นผู้สนับสนุนในงานเปิดบ้านชมรมกีฬาอิเล็คทรอนิกส์ (eSports)
+                                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect card-font-data">
+                                            อ่านต่อ <i class="fa fa-angle-right social-font"></i>
+                                      </a>
+                                    </div>
+                                    <div class="mdl-card__actions mdl-card--border">
+                                      
+                                    </div>
+                                  
+                                  </div>
+                            <!--News-->
+                            <!--News-->
+                            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                    <div class="mdl-card__title">
+                                            <img src="images/pr.png" class="card-img"/>
+                                    </div>
+                                    <div class="mdl-card__supporting-text">
+                                        <div class="sharing-ion">
+                                                <i class="fa fa-facebook social-font"> </i>
+                                                <i class="fa fa-twitter social-font"> </i>
+                                                <i class="fa fa-instagram social-font"> </i>
+                                                <i class="fa fa-youtube social-font"> </i>
+                                        </div>    
+                                        ขอแสดงความยินดีกับน้องธีเดช ทรงสายสกุล นักศึกษาชั้นปีที่ 1 หลักสูตรการออกแบบเชิงโต้ตอบและการพัฒนาเกม ในการแข่งขัน FIFA online 3
+                                      <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect card-font-data">
+                                            อ่านต่อ <i class="fa fa-angle-right social-font"></i>
+                                      </a>
+                                    </div>
+                                    <div class="mdl-card__actions mdl-card--border">
+                                      
+                                    </div>
+                                  
+                                  </div>
+                            <!--News-->
+                        </div>
+                    </div>
+                </div>
+        </div>
+        
+
+        <footer class="android-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+            <div class="mdl-mega-footer--left-section">
+                    <div class="sharing-font">
+                            <i class="fa fa-facebook "> </i>
+                            <i class="fa fa-twitter "> </i>
+                            <i class="fa fa-instagram "> </i>
+                            <i class="fa fa-youtube "> </i>
+                    </div>    
+            </div>
+            <div class="mdl-mega-footer--right-section">
+              <a class="mdl-typography--font-light" href="#top">
+                Back to Top
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mdl-mega-footer--middle-section">
+            <p class="mdl-typography--font-light">วิทยาลัยครีเอทีฟดีไซน์ แอนด์ เอ็นเตอร์เทนเมนต์เทคโนโลยี (College of Creative Design and Entertainment Technology</p>
+            <p class="mdl-typography--font-light">มหาวิทยาลัยธุรกิจบัณฑิตย์ 110/1-4 ถนนประชาชื่น หลักสี่ กทม 10210</p>
+          </div>
+
+          <div class="mdl-mega-footer--bottom-section">
+            <a class="android-link android-link-menu mdl-typography--font-light" id="version-dropdown">
+            หลักสูตร
+            <i class="material-icons">arrow_drop_up</i>
+            </a>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="version-dropdown">
+              <li class="mdl-menu__item">หลักสูตรการออกแบบเชิงโต้ตอบและการพัฒนาเกม</li>
+              <li class="mdl-menu__item">หลักสูตรการออกแบบดิจิทัลเชิงสร้างสรรค์</li>
+              <li class="mdl-menu__item">หลักสูตรวิศวกรรมเว็บและการพัฒนาแอปพลิเคชันบนอุปกรณ์พกพา</li>
+            </ul>
+            <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
+                มหาวิทยาลัยธุรกิจบัณฑิตย์
+              <i class="material-icons">arrow_drop_up</i>
+            </a>
+            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
+              <li class="mdl-menu__item">การเงิน</li>
+              <li class="mdl-menu__item">เทคโน</li>
+              <li class="mdl-menu__item">กองอาคาร</li>
+              <li class="mdl-menu__item">การตลาด</li>
+            </ul>
+            <a class="android-link mdl-typography--font-light" href="">เกี่ยวกับวิทยาลัย <i class="material-icons">arrow_drop_up</i></a>
+            <a class="android-link mdl-typography--font-light" href="">นโยบายการเข้าศึกษา</a>
+          </div>
+
+        </footer>
+      </div>
+    </div>
+    <a href="http://ant.dpu.ac.th" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast"><i class="fa fa-mortar-board social-font"></i>Demo Version</a>
+  </body>
+</html>
