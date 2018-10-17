@@ -222,7 +222,7 @@ a img{
     height: 440px;
     width: 100%;
     background-color: #f3f3f3;
-    /*background: url(../images/slide01.jpg) center 30% no-repeat;*/
+    background: url(../images/slide01.jpg) center 30% no-repeat;
     background-size: cover;
 }
 
@@ -692,7 +692,7 @@ article:nth-of-type(4) {animation: slideIn var(--duration) linear 12s;}
 article:nth-of-type(5) {animation: slideIn var(--duration) linear 18s;}
   /* this starts immediatly*/
 
-.mdl-layout__content{background: #000; height:400px;}
+.mdl-layout__container{margin:0 auto;width:1000px !important;height:100%; background: #fff;}
 
 
 @keyframes slideIn {
